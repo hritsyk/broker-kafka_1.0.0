@@ -17,6 +17,10 @@ How to use:
             igrytsyk/broker-kafka_1.0.0
 ```
 
-Or use [docker-compose](https://github.com/hritsyk/kafka-cluster-docker-compose/blob/master/docker-compose.yml) for local development.
+Or use [docker-compose](https://github.com/hritsyk/kafka-cluster-docker-compose/blob/master/docker-compose.yml) for local development,
+and run like
+```
+docker-compose up
+```
 
 
