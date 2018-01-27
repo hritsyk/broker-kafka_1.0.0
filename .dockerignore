@@ -2,3 +2,4 @@
 .gitignore
 !/.idea/
 /README.md
+/broker-kafka_2.12-1.0.0.iml
