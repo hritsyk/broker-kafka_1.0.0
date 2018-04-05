@@ -17,8 +17,9 @@ ENV GROUP_INITIAL_REBALANCE_DELAY_MS 0
 RUN apk add --no-cache \
         bash \
         bash-completion \
-        openjdk8-jre-base &&\
-        mkdir /topic-data
+        openjdk8-jre-base && \
+        mkdir /topic-data && \
+        rm -rf /topic-data/lost+found
 
 VOLUME /topic-data
 
